@@ -1,0 +1,81 @@
+- 👋 Hi, I’m @hamzabutty60
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+hamzabutty60/hamzabutty60 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 800px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container{
+    background-color:#A41034;
+}
+.imagelogo{
+    width:80%;
+    margin-left:140px;
+    margin-top:50px;
+}
+.imageclass{
+    margin-left:120px;
+    margin-top:70px;
+}
+.textone{
+    font-size:30px;
+    margin-top:40px;
+    color:#FFFFFF;
+    line-height:1;
+    width:85%;
+    text-align:justify;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+<div class="row">
+  <div class="column">
+  <img class="imagelogo" src="{{ 'WHITE_FULL_LOGO.png' | theme_asset_url }}">
+    <img class="imageclass" src="{{ 'LSI_Classroom.jpg' | theme_asset_url }}">
+
+  </div>
+  <div class="column">
+    <p class="textone">
+custom Text
+</p>
+  </div>
+</div>
+</div>
+</body>
+</html>
+
+{% schema %}
+{
+"label":"My New Section"
+}
+{% endschema %}
