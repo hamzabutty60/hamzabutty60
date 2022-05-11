@@ -1,0 +1,29 @@
+Social Links
+<!Doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+.icons{
+  text-align:center;
+  background-color:#f5f5f6;
+}
+  .fa {  
+  padding: 20px;  
+text-align: center;  
+  margin: 5px 2px;  
+  font-size: 30px;  
+  width: 50px;  
+}  
+
+</style>
+</head>
+<body>
+<div class="icons">
+<a href="#" target="_blank" class="fa fa-twitter"><i class="icon-twitter"></i><span></span></a>
+<a href="#" target="_blank" class="fa fa-facebook"><i class="icon-facebook"></i><span></span></a>
+<a href="#"  target="_blank" class="fa fa-linkedin"><i class="icon-google-plus"></i><span></span></a>
+</div>
+</body>
+</html>
